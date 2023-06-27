@@ -1,4 +1,6 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'wdm'
-gem 'jekyll'
+group :jekyll_plugins do
+  # ... other gems
+  gem "jekyll-tabs"
+end
